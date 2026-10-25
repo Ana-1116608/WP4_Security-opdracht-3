@@ -5,6 +5,10 @@ from sqlmodel import Field, Relationship, SQLModel
 from .contact import Contact
 from .company import Company
 
+
+
+
+
 class ListingBase(SQLModel):
     title: str
     description: str

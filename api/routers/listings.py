@@ -26,3 +26,5 @@ async def get_listing(
     if not listing:
            raise HTTPException(status_code=404, detail="Listing not found")
     return listing
+
+
